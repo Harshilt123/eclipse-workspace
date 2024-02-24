@@ -1,0 +1,8 @@
+127.0.0.1 - - [13/Dec/2023:12:54:45 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [13/Dec/2023:12:54:45 +0530] "GET /j2ee2023/servlet/com.controller.AddEmployeeServlet HTTP/1.1" 404 809
+0:0:0:0:0:0:0:1 - - [13/Dec/2023:12:54:45 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [13/Dec/2023:14:11:26 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [13/Dec/2023:14:11:27 +0530] "GET /j2ee2023/Registration2.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [13/Dec/2023:14:11:33 +0530] "GET /j2ee2023/RegistrationServlet2?firstName=&email=rock%40www.com&password=rokcerr&city=-1 HTTP/1.1" 200 80
+0:0:0:0:0:0:0:1 - - [13/Dec/2023:14:11:43 +0530] "GET /j2ee2023/RegistrationServlet2?firstName=rock&email=rock%40www.com&password=rokcerr&gender=on&city=surat HTTP/1.1" 200 84
+127.0.0.1 - - [13/Dec/2023:14:20:19 +0530] "GET / HTTP/1.1" 404 751

@@ -1,0 +1,17 @@
+127.0.0.1 - - [25/Oct/2023:14:55:59 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [25/Oct/2023:14:56:00 +0530] "GET /j2ee2023/servlet/com.controller.RegistrationServlet2 HTTP/1.1" 404 811
+0:0:0:0:0:0:0:1 - - [25/Oct/2023:14:56:00 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [25/Oct/2023:14:58:22 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [25/Oct/2023:14:58:22 +0530] "GET /j2ee2023/servlet/com.controller.RegistrationServlet2 HTTP/1.1" 404 811
+0:0:0:0:0:0:0:1 - - [25/Oct/2023:14:59:16 +0530] "GET /j2ee2023/servlet/com.controller.RegistrationServlet HTTP/1.1" 404 810
+127.0.0.1 - - [25/Oct/2023:15:08:29 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [25/Oct/2023:15:08:29 +0530] "GET /j2ee2023/ HTTP/1.1" 200 161
+0:0:0:0:0:0:0:1 - - [25/Oct/2023:15:08:34 +0530] "GET /j2ee2023/RegistrationServlet2 HTTP/1.1" 200 46
+0:0:0:0:0:0:0:1 - - [25/Oct/2023:15:12:41 +0530] "GET /j2ee2023/Registration2.html HTTP/1.1" 200 521
+0:0:0:0:0:0:0:1 - - [25/Oct/2023:15:13:00 +0530] "GET /j2ee2023/RegistrationServlet2?lastName=thakkar&firstName=ayush&email=rock%40www.com&password=1234&numbers=987667980 HTTP/1.1" 200 74
+127.0.0.1 - - [25/Oct/2023:15:31:39 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [25/Oct/2023:15:31:40 +0530] "GET /j2ee2023/RegistrationServlet2 HTTP/1.1" 200 70
+0:0:0:0:0:0:0:1 - - [25/Oct/2023:16:51:00 +0530] "GET /j2ee2023/Registration2.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Oct/2023:18:55:49 +0530] "GET /j2ee2023/Registration2.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Oct/2023:18:55:49 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [25/Oct/2023:18:55:59 +0530] "GET /j2ee2023/RegistrationServlet2?lastName=s%2C.dj2enw&firstName=ayush&email=rock%40www.com&password=rokcerr&numbers=987667980 HTTP/1.1" 200 87

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<form action="RegistrationServlet2">
+		
+		FirstName :  <input type="text" name="firstName"/>
+		<font color ="red">${firstNameError}</font>
+		<br><Br>	
+		Email : <input type="Email" name="email"/>
+		<font color ="red">${EmailError}</font>
+		<br><Br>
+		password:<input type="password"name="password"/>
+		<font color ="red">${passwordError}</font>
+		<br><Br>
+			
+			
+	    Gender: Male:<input type="radio"value"male" name="gender" />	
+	    	
+		            Female: <input type="radio"value="female"name="gender"/>
+		 <br><Br>
+			 
+		   City: <select  name="city">
+			     <option value="-1">-----Select City------</option>
+			     <option value="ahmedabad">Ahmedabad</option>
+			     <option value="baroda">Baroda</option>
+			     <option value="surat">surat</option>
+			     <option value="palanpur">Palanpur</option>
+			     
+			   
+		   </select>	  
+		   <br><Br>
+		   
+		About yourSelf :<textarea rows="10" cols="20">name="aboutme"</textarea>
+		<bR><br>            
+		<input type="submit" value="Signup"/>
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<html>
+        <body>
+            <div class="container-fluid">
+                <header>
+                    <h1>Business Registration Address Setup</h1>
+                </header>
+
+         <form>
+                <label>number 1</label>
+                <input type="text" name="number1" id="number1" placeholder="enter single digit number"> <br>
+                +<br>
+                <label>number 2</label>
+                <input type="text" name="number2" id="number2" placeholder="enter single digit number"><br>
+                <button type="submit" class="btn btn-info" onclick="submit1()">submit</button><br><br>
+                <div class="screen" id="screen1"></div>
+
+            </form>
+
+            </div> <!-- End Container-->
+
+
+
+        <footer>
+
+        </footer>
+          <script type="text/javascript">
+              function submit1(){
+                 var a = document.getElementByID("number1").value;
+              var b = document.getElementByID("number2").value;
+                var c = a + b; 
+            document.getElementByID("screen1").innerHTML=c;
+              }
+          </script>
+
+        </body>
+        </html>
+</body>
+</html>

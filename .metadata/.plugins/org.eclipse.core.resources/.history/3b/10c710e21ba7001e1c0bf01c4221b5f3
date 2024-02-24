@@ -1,0 +1,48 @@
+package com.controller;
+
+import javax.security.auth.message.callback.PrivateKeyCallback.Request;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class CardSevlet extends HttpServletss
+{
+	
+
+	public void  service(HttpServletRequest request,HttpServletResponse response) {
+		
+		String a=request.getParameter("a");
+		String b=request.getParameter("b");
+		
+		System.out.println("firstvalue is"+a);
+		System.out.println("firstvalue is"+b);
+		boolean iserror=false;
+		String AIpharegex="0-9";
+				
+		if(a==null || a.trim().length()==0  )
+		{		 
+			iserror=true;
+		   request.setAttribute("berror", "please enter first input correctly");
+		   
+	    }
+		else if(a.matches(AIpharegex)== false)
+		{	
+		    iserror=true;
+		    request.setAttribute("beroor", "please enter first input correctly");
+		    
+		}    
+        else {
+			
+		} 
+	}
+     	{ 
+			Request.setAttribute("bright", b);
+     	
+	   	if (iserror==true) 
+	   	{
+	   		Request.setAttribute
+	   	}
+	   	
+	   		
+	
+
+

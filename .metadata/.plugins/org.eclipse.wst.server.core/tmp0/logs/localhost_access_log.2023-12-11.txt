@@ -1,0 +1,8 @@
+127.0.0.1 - - [11/Dec/2023:17:27:39 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [11/Dec/2023:17:27:39 +0530] "GET /j2ee2023/Registration2.html HTTP/1.1" 200 1176
+0:0:0:0:0:0:0:1 - - [11/Dec/2023:17:27:39 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [11/Dec/2023:17:28:38 +0530] "GET /j2ee2023/RegistrationServlet2?firstName=harshil&email=rock%40www.com&password=rokcerr&gender=on&city=surat HTTP/1.1" 200 87
+0:0:0:0:0:0:0:1 - - [11/Dec/2023:17:29:06 +0530] "GET /j2ee2023/RegistrationServlet2?firstName=harshil&email=rock%40www.com&password=rokcerr&gender=on&city=ahmedabad HTTP/1.1" 200 87
+127.0.0.1 - - [11/Dec/2023:17:38:53 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [11/Dec/2023:17:38:54 +0530] "GET /j2ee2023/servlet/com.controller.RegistrationServlet HTTP/1.1" 404 810
+0:0:0:0:0:0:0:1 - - [11/Dec/2023:17:39:19 +0530] "GET /j2ee2023/RegistrationServlet2?firstName=jack&email=rock%40www.com&password=rokcerr&gender=on&city=-1 HTTP/1.1" 200 84

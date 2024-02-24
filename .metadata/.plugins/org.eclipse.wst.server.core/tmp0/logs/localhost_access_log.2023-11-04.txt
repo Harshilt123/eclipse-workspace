@@ -1,0 +1,10 @@
+127.0.0.1 - - [04/Nov/2023:12:33:56 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [04/Nov/2023:12:33:57 +0530] "GET /j2ee2023/WEB-INF/AddEmployeeServlet.html HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [04/Nov/2023:12:33:57 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [04/Nov/2023:12:40:05 +0530] "GET /j2ee2023/WEB-INF/AddEmployeeServlet.html HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [04/Nov/2023:12:40:06 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [04/Nov/2023:12:40:53 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [04/Nov/2023:12:40:53 +0530] "GET /j2ee2023/AddEmployeeServlet.html HTTP/1.1" 200 1067
+0:0:0:0:0:0:0:1 - - [04/Nov/2023:12:41:11 +0530] "GET /j2ee2023/AddEmployeeServlet?firstName=rock&email=rock%40www.com&password=rokcerr&gender=male&hobby=cricket&city=ahmedabad&address=A-13%2CRAJSHREE+TOWER.NR.PRERNATIRTH+DERADAR.SATELLITE HTTP/1.1" 200 208
+0:0:0:0:0:0:0:1 - - [04/Nov/2023:12:57:30 +0530] "GET /j2ee2023/AddEmployeeServlet?firstName=rock&email=rock%40www.com&password=rokcerr&gender=female&hobby=cricket&hobby=football&hobby=boxCricket&city=ahmedabad&address=A-13%2CRAJSHREE+TOWER.NR.PRERNATIRTH+DERADAR.SATELLITE HTTP/1.1" 200 230
+0:0:0:0:0:0:0:1 - - [04/Nov/2023:12:58:00 +0530] "GET /j2ee2023/AddEmployeeServlet?firstName=rock&email=rock%40www.com&password=rokcerr&gender=female&hobby=cricket&hobby=football&hobby=boxCricket&city=ahmedabad&address=A-13%2CRAJSHREE+TOWER.NR.PRERNATIRTH+DERADAR.SATELLITE HTTP/1.1" 200 230
